@@ -86,6 +86,7 @@ cut -c1-3 file11
 
 cut -d "|" -f 1 file22
 ## OUTPUT
+<img width="669" height="147" alt="unnamed" src="https://github.com/user-attachments/assets/1f50a95d-48fc-47d7-b501-9821a016f797" />
 
 
 
@@ -158,6 +159,7 @@ egrep -w 'Hello|hello' newfile
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
+<img width="676" height="58" alt="unnamed" src="https://github.com/user-attachments/assets/6ca5a98d-8b1b-47b2-a51c-5b1c697508be" />
 
 
 
@@ -348,6 +350,7 @@ cat > file22
 ``` 
 uniq file22
 ## OUTPUT
+<img width="451" height="117" alt="unnamed" src="https://github.com/user-attachments/assets/7218cc13-7a34-4ba3-a7df-0b6b84191b3f" />
 
 
 
@@ -355,6 +358,7 @@ uniq file22
 
 cat file23 | tr [:lower:] [:upper:]
  ## OUTPUT
+<img width="659" height="188" alt="unnamed" src="https://github.com/user-attachments/assets/61a47f93-04dd-4f07-9db4-44f04c29978c" />
 
 cat < urllist.txt
 ```
@@ -384,6 +388,7 @@ cat urllist.txt | tr -d ' ' | tr -s '.'
 #Backup commands
 tar -cvf backup.tar *
 ## OUTPUT
+<img width="808" height="710" alt="image" src="https://github.com/user-attachments/assets/15edefdb-e896-4e4b-9440-52fbddc8885d" />
 
 
 mkdir backupdir
@@ -394,19 +399,21 @@ cd backupdir
  
 tar -tvf backup.tar
 ## OUTPUT
+<img width="808" height="710" alt="image" src="https://github.com/user-attachments/assets/4b1559a9-695d-4be5-97d4-5a608f825516" />
 
 
 tar -xvf backup.tar
 ## OUTPUT
+<img width="810" height="496" alt="image" src="https://github.com/user-attachments/assets/6e6d5913-c35c-4c22-9d3e-cca77987526c" />
 
 
 gzip backup.tar
 
 ls .gz
-## OUTPUT
- 
+
 gunzip backup.tar.gz
 ## OUTPUT
+<img width="816" height="61" alt="image" src="https://github.com/user-attachments/assets/ed731004-741d-4786-b288-dea0b51fcd33" />
 
  
 # Shell Script
@@ -516,6 +523,7 @@ echo "$val1 is less than $val2"
 fi
 ```
 ## OUTPUT
+<img width="662" height="198" alt="unnamed" src="https://github.com/user-attachments/assets/390d363f-f853-4715-9bb8-fb3e2eff48f5" />
 
 
 
@@ -871,6 +879,7 @@ Bhadrachalam
 Khammam
 
 ## OUTPUT
+<img width="932" height="217" alt="image" src="https://github.com/user-attachments/assets/f0fd3ce5-99f1-4883-84ac-21d24528c5c8" />
 
 
 cat forctype.sh 
