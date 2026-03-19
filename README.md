@@ -319,6 +319,7 @@ sed -n '2,4{s/^/$/;p}' file23
 
 
 sed -n '2,4{s/$/*/;p}' file23
+
 <img width="638" height="98" alt="unnamed" src="https://github.com/user-attachments/assets/04417753-8e7a-4fa9-b097-6ebc339866c9" />
 
 
@@ -479,7 +480,8 @@ echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- <img width="667" height="59" alt="unnamed" src="https://github.com/user-attachments/assets/ec5bae0b-5eb9-47e6-af99-1a72ce670ba2" />
+
+<img width="667" height="59" alt="unnamed" src="https://github.com/user-attachments/assets/ec5bae0b-5eb9-47e6-af99-1a72ce670ba2" />
 
 echo $?
 ## OUTPUT 
@@ -757,6 +759,7 @@ esac
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
 <img width="600" height="67" alt="unnamed" src="https://github.com/user-attachments/assets/f1ec6076-5c80-4564-9c7a-c3e791e6d1fe" />
 
 cat > whiletest
@@ -786,7 +789,8 @@ var1=$[ $var1 - 25 ]
 done
 ``` 
 $ chmod 755 untiltest.sh
- <img width="581" height="80" alt="unnamed" src="https://github.com/user-attachments/assets/c2a6f5e8-6317-4071-aeff-ec04b1c35367" />
+
+<img width="581" height="80" alt="unnamed" src="https://github.com/user-attachments/assets/c2a6f5e8-6317-4071-aeff-ec04b1c35367" />
 
  
  
@@ -801,7 +805,8 @@ done
  ```
  
 $ chmod 755 forin1.sh
- <img width="587" height="204" alt="unnamed" src="https://github.com/user-attachments/assets/9823e2d3-80cf-4c40-b7e0-cc6dd6069923" />
+
+<img width="587" height="204" alt="unnamed" src="https://github.com/user-attachments/assets/9823e2d3-80cf-4c40-b7e0-cc6dd6069923" />
 
  
 cat forin2.sh 
@@ -828,7 +833,8 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
- <img width="587" height="204" alt="unnamed" src="https://github.com/user-attachments/assets/e14bb655-4f99-4010-a387-4e6b3a2f8722" />
+
+<img width="587" height="204" alt="unnamed" src="https://github.com/user-attachments/assets/e14bb655-4f99-4010-a387-4e6b3a2f8722" />
 
 cat forin1.sh 
 ```bash
@@ -956,7 +962,8 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
- <img width="589" height="260" alt="unnamed" src="https://github.com/user-attachments/assets/12a13d3d-5ce1-4965-8f5e-727cf7b51fd6" />
+
+<img width="589" height="260" alt="unnamed" src="https://github.com/user-attachments/assets/12a13d3d-5ce1-4965-8f5e-727cf7b51fd6" />
 
 cat exread.sh 
 ```bash
@@ -1007,10 +1014,11 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
+
 <img width="572" height="293" alt="unnamed" src="https://github.com/user-attachments/assets/325e5382-35c1-4223-aa3e-7e8954a1b527" />
 
  
- ./funcex.sh 1 2
+./funcex.sh 1 2
 
  
 cat argshift.sh
@@ -1025,7 +1033,8 @@ $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- <img width="572" height="200" alt="unnamed" src="https://github.com/user-attachments/assets/217ab199-db36-45de-9838-d98aa91f2ea2" />
+
+<img width="572" height="200" alt="unnamed" src="https://github.com/user-attachments/assets/217ab199-db36-45de-9838-d98aa91f2ea2" />
 
  cat argshift1.sh
 ```bash
@@ -1043,7 +1052,8 @@ done
 $ chmod 777 argshift.sh
 ## OUTPUT
 $ ./argshift.sh 1 2 3
- <img width="572" height="291" alt="unnamed" src="https://github.com/user-attachments/assets/b87dee2d-80bb-4fc0-a73b-d150a871172f" />
+
+<img width="572" height="291" alt="unnamed" src="https://github.com/user-attachments/assets/b87dee2d-80bb-4fc0-a73b-d150a871172f" />
 
 cat argshift.sh
 ```bash
