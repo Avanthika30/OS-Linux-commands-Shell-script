@@ -333,6 +333,7 @@ cat > file21
 ``` 
 sort file21
 ## OUTPUT
+<img width="457" height="110" alt="unnamed" src="https://github.com/user-attachments/assets/bd093d78-587c-4066-bc85-7e8d0d3500c2" />
 
 
 cat > file22
@@ -369,11 +370,13 @@ www. mrcet.... com
  ```
 cat urllist.txt | tr -d ' '
  ## OUTPUT
+<img width="602" height="154" alt="unnamed" src="https://github.com/user-attachments/assets/b08e2257-57c8-430c-ae31-c468979e1018" />
 
 
  
 cat urllist.txt | tr -d ' ' | tr -s '.'
 ## OUTPUT
+<img width="677" height="78" alt="unnamed" src="https://github.com/user-attachments/assets/8277c1ca-f715-42ea-b939-42c83c3e9195" />
 
 
 
@@ -395,6 +398,7 @@ tar -tvf backup.tar
 tar -xvf backup.tar
 ## OUTPUT
 
+
 gzip backup.tar
 
 ls .gz
@@ -412,6 +416,7 @@ echo 'echo Hello World‘; exit 0 >> my-script.sh
 chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
+<img width="745" height="89" alt="unnamed" src="https://github.com/user-attachments/assets/26b995f8-5a91-40f2-b53c-eab0c300fdf9" />
 
  
 cat << stop > herecheck.txt
@@ -424,6 +429,7 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+<img width="730" height="190" alt="unnamed" src="https://github.com/user-attachments/assets/1f0d17f0-19bf-4b7d-9c59-5289c097266c" />
 
 
 cat < scriptest.sh 
@@ -462,25 +468,22 @@ chmod 777 scriptest.sh
 ./scriptest.sh 1 2 3
 
 ## OUTPUT
+<img width="700" height="312" alt="unnamed" src="https://github.com/user-attachments/assets/8b7bcb33-7132-4ca7-95d0-9590ed90ea94" />
 
  
 ls file1
 ## OUTPUT
+<img width="676" height="59" alt="unnamed" src="https://github.com/user-attachments/assets/efa895d2-c149-4d88-96f3-73fdb0e8871e" />
 
 echo $?
 ## OUTPUT 
 ./one
 bash: ./one: Permission denied
- 
+ <img width="667" height="59" alt="unnamed" src="https://github.com/user-attachments/assets/ec5bae0b-5eb9-47e6-af99-1a72ce670ba2" />
+
 echo $?
 ## OUTPUT 
- 
-abcd
- 
-echo $?
- ## OUTPUT
-
-
+<img width="653" height="206" alt="unnamed" src="https://github.com/user-attachments/assets/7ff3317a-b9b7-49d8-b498-b47e9ee24b1a" />
  
 # mis-using string comparisons
 
@@ -510,7 +513,7 @@ else
 echo "$val1 is less than $val2"
 fi
 ```
-##OUTPUT
+## OUTPUT
 
 
 
@@ -518,6 +521,7 @@ chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="651" height="113" alt="unnamed" src="https://github.com/user-attachments/assets/a0d32188-bec5-4baf-a680-d1867206e902" />
 
 
 # check file ownership
@@ -545,6 +549,7 @@ fi
  ```
 ./psswdperm.sh
 ## OUTPUT
+<img width="647" height="98" alt="unnamed" src="https://github.com/user-attachments/assets/9133604d-094f-4342-b716-d4bdae87b433" />
 
 # check if with file location
 cat>ifnested.sh 
